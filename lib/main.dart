@@ -18,12 +18,9 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.teal,
       ),
       debugShowCheckedModeBanner: false,
-      home: LocationScreen(
-        index: 0,
-      ),
-      // routes: {
-      //   HomeScreen.routeName: (context) => HomeScreen(),
-      // },
+      routes: {
+        HomeScreen.routeName: (context) => HomeScreen(),
+      },
     );
   }
 }
